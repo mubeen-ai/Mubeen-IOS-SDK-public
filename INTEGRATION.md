@@ -14,7 +14,7 @@ Call once at launch. It ensures the device ID exists and starts the background r
 try await Mubeen.configure(
     MubeenConfig(
         apiKey: "pk_live_your_key",
-        endpoint: URL(string: "https://api.mubeen.io")!,
+        endpoint: URL(string: "https://fp.sa.mubeen.ai")!,
         environment: .production,          // or .sandbox
         enableJailbreakChecks: true,       // default true
         enableBehavioralSignals: false,    // default false

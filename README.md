@@ -35,7 +35,7 @@ import MubeenDeviceSDK
 try await Mubeen.configure(
     MubeenConfig(
         apiKey: "pk_live_your_key",
-        endpoint: URL(string: "https://api.mubeen.io")!
+        endpoint: URL(string: "https://fp.sa.mubeen.ai")!
     )
 )
 
